@@ -1,0 +1,232 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+background-image: url(data:image/jpeg;base64,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);
+    height: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 35px;
+width: 900px;
+height: 550px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: white;
+border-radius: 5px;
+}
+
+.form-content{
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 400px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image-container{
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.main-heading{
+    font-family: 
+    "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   margin-left: 20px;
+   margin-top: 20px;
+
+  
+ 
+}
+
+.para1{
+    margin-left: 20px;
+    font-size: small;
+    font-family: 
+    "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: gray;
+}
+
+.heading2{
+ 
+    font-family: 
+    "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   color: gray;
+   margin-left: 20px;
+  padding: 10px;
+  width: 78%;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+ 
+}
+
+.btn{
+    width: 255px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    margin-left: 22px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+
+
+}
+
+a{
+    color: blueviolet;
+}
+
+.font-size{
+    font-size: small;
+    float: right;
+    margin-right: 20px;
+}
+
+.Sign{
+    float: right;
+    margin-right: 20px;
+}
+
+.label{
+    display: block;
+    font-family: 
+    "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   color: gray;
+   margin-left: 20px;
+   margin-top: 20px;
+   font-size: small;
+}
+
+.check{
+    font-family: 
+    "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   color: gray;
+   margin-left: 25px;
+}
+.check2{
+    font-family: 
+    "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   color: gray;
+
+}
+
+.line-with-text {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    font-family:    
+    "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .line-with-text hr {
+    border: 0;
+    border-top: 1px solid grey;
+    width: 90%;
+    margin: 0;
+  }
+  
+  .line-with-text span {
+    position: absolute;
+    background-color: white;
+    padding: 0 10px;
+    top: -0.6em; /* adjust vertical positioning */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: grey;
+  }
+  
+/* Container to hold the buttons */
+.buttons {
+    display: flex;          /* Use flexbox to align buttons side by side */
+    gap: 10px;              /* Adds space between the buttons */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center;    /* Aligns the buttons vertically */
+    margin-top: 20px;       /* Optional: Add space above the buttons */
+
+    
+  }
+  
+  /* General button styles */
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 12px;        
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    width: 115px;           
+    height: 40px;           
+    /* position: relative; */
+  }
+  
+  /* Google button */
+  .google-btn {
+    background-color: #fff;
+    color: #4285F4;
+    border: 1px solid #4285F4;
+    background-size: 18px;  /* Size of the logo */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;      /* Add space for the logo */
+    text-align: left;        /* Align text to the left */
+    
+  }
+  
+  .google-btn:hover {
+    background-color: #f1f3f4;
+  }
+  
+  /* Facebook button */
+  .facebook-btn {
+    background-color: #fff;
+    color: #3b5998;
+    border: 1px solid #3b5998;
+    
+    background-size: 18px;  /* Size of the logo */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;      /* Add space for the logo */
+    text-align: left;        /* Align text to the left */
+  }
+  
+  .facebook-btn:hover {
+    background-color: #e7f3ff;
+  }
+  
+  .pad{
+    margin-right: 15px;
+  }
